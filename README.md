@@ -1,48 +1,43 @@
 # Kopiiki Code: The Seed 🌱
 
-### The ultimate Vercel AI SDK v6 + Next.js baseline.
+> The purest starting point for your AI Coding Agent journey.
 
-This repository is a "Seed" project—a pure, minimalist foundation for building AI Coding Agents. It represents the state of the **Kopiiki Code** project at the end of **Lecture 02**.
+[中文版自述文件](./README_zh-CN.md)
 
-## ⭐ Features
+## 🎯 Philosophy: "Grow Your Own Agent"
 
--   **Next.js 15 (App Router)** & **Shadcn UI** pre-configured.
--   **Vercel AI SDK v6** Core implementation.
--   **Gemini 3 Flash** ready with thinking level medium.
--   **Clean Chat Interface**: A simple, robust basis for adding advanced features like Tools, Loops, and Artifacts.
+This isn't just a template to clone. It's a **seed**—designed to be grown by YOU.
 
-## 📖 Integrated Lectures
+The belief behind this project: the best way to master AI agents is not to inherit a complete solution, but to **start with the minimum viable foundation and build your capabilities one concept at a time**—learning deeply as you go, until the agent reflects exactly what you imagined.
 
-This seed includes the first two foundational lectures in the `Handoff/concepts/` directory:
+1. **教中学（Learn by Teaching）**: Every concept you add comes with a written explanation in `Handoff/concepts/`. You don't just write code—you understand why it works.
+2. **Practice Makes the Product**: As you master each SDK concept, the agent gets genuinely more powerful. Knowledge and product growth are the same motion.
+3. **It's Yours**: No forced architecture. Grow it into a file editor, a code reviewer, a pair-programmer—whatever you need.
 
-1.  **[01-streamText.md](Handoff/concepts/01-streamText.md)**: Fundamental streaming with AI SDK Core.
-2.  **[02-tools-and-tool-call.md](Handoff/concepts/02-tools-and-tool-call.md)**: Introduction to tool definition and calling.
+## 📖 Foundation Lectures (01 & 02)
 
-## 🚀 How to use this Seed
+Two lectures are included in `Handoff/concepts/` to get you started:
 
-### 1. Clone & Install
+1. **[01-streamText.md](Handoff/concepts/01-streamText.md)** — The art of AI streaming: `streamText`, back-pressure, and the frontend `useChat` hook.
+2. **[02-tools-and-tool-call.md](Handoff/concepts/02-tools-and-tool-call.md)** — How to define tools and how the model decides to call them.
+
+## 🚀 Quickstart
+
 ```bash
 git clone https://github.com/zekunzhang-work/kopiiki-agent-the-seed.git
 cd kopiiki-agent-the-seed
 npm install
 ```
 
-### 2. Environment
-Add your API key to `.env.local`:
+Add your key to `.env.local`:
 ```env
 GOOGLE_GENERATIVE_AI_API_KEY=your_key
 ```
 
-### 3. Start Coding
 ```bash
 npm run dev
 ```
 
-## 🛤️ Roadmap from here
-Use this repository to practice:
--   Implementing `maxSteps` (or `stopWhen`) for multi-step agents.
--   Building a file-system interface (`read_file`, `write_file`).
--   Creating a custom `DataStream` for UI components.
-
 ---
-Built as part of the **Kopiiki Agent** educational series.
+
+Built as the starting point of the [Kopiiki Code](https://github.com/zekunzhang-work/kopiiki-agent) educational series.
