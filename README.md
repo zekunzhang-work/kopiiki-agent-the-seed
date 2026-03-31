@@ -10,7 +10,7 @@ This isn't just a template to clone. It's a **seed**—designed to be grown by Y
 
 The belief behind this project: the best way to master AI agents is not to inherit a complete solution, but to **start with the minimum viable foundation and build your capabilities one concept at a time**—learning deeply as you go, until the agent reflects exactly what you imagined.
 
-1. **教中学（Learn by Teaching）**: Every concept you add comes with a written explanation in `Handoff/concepts/`. You don't just write code—you understand why it works.
+1. **Learn by Doing**: Every concept you practice comes with a written explanation in `Handoff/concepts/`. You don't just write code—you understand why it works, step by step, in real code.
 2. **Practice Makes the Product**: As you master each SDK concept, the agent gets genuinely more powerful. Knowledge and product growth are the same motion.
 3. **It's Yours**: No forced architecture. Grow it into a file editor, a code reviewer, a pair-programmer—whatever you need.
 
