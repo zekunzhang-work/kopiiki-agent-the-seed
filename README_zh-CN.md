@@ -1,6 +1,6 @@
 # Kopiiki Code: 星火种子 🌱
 
-> 你的 AI Coding Agent 之旅，从这里出发。
+> 骑上马，然后才能学会驾驭。
 
 [English Version](./README.md)
 
