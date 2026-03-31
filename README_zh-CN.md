@@ -1,4 +1,4 @@
-# Kopiiki Code: 星火种子 🌱
+# Kopiiki Code: New journey
 
 > 骑上马，然后才能学会驾驭。
 
